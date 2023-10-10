@@ -37,10 +37,10 @@
 
         raise_layer {
             bindings = <
-  &kp LS(LG(LC(NUMBER_4)))  &trans  &kp PG_UP       &kp UP_ARROW      &kp PAGE_DOWN       &kp HOME               &kp HOME            &kp PG_UP            &kp UP_ARROW       &kp PAGE_DOWN    &trans  &kp RS(RG(NUMBER_4))
-  &kp LEFT_ALT              &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW     &kp END                &kp END             &kp LEFT             &kp DOWN_ARROW     &kp RIGHT        &trans  &mt RIGHT_ALT RS(RG(N5))
-  &kp LEFT_CONTROL          &trans  &trans          &trans            &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans             &trans           &trans  &kp RIGHT_CONTROL
-                                    &kp LEFT_SHIFT  &kp LEFT_COMMAND  &mo 3               &trans                 &trans              &mo 3                &kp RIGHT_COMMAND  &kp RIGHT_SHIFT
+  &kp LS(LG(LC(NUMBER_4)))  &trans        &kp PG_UP       &kp UP_ARROW      &kp PAGE_DOWN       &kp HOME               &kp HOME            &kp PG_UP            &kp UP_ARROW       &kp PAGE_DOWN    &trans  &kp RS(RG(NUMBER_4))
+  &kp LEFT_ALT              &kp LEFT_ALT  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW     &kp END                &kp END             &kp LEFT             &kp DOWN_ARROW     &kp RIGHT        &trans  &mt RIGHT_ALT RS(RG(N5))
+  &kp LEFT_CONTROL          &trans        &trans          &trans            &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans             &trans           &trans  &kp RIGHT_CONTROL
+                                          &kp LEFT_SHIFT  &kp LEFT_COMMAND  &mo 3               &trans                 &trans              &mo 3                &kp RIGHT_COMMAND  &kp RIGHT_SHIFT
             >;
         };
 
